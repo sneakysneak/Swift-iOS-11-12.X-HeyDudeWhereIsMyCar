@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3294E08225776ED000131D8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3294E07225776ED000131D8 /* CoreLocation.framework */; };
+		F33BC6C62254D5AE00C48E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33BC6C52254D5AE00C48E57 /* AppDelegate.swift */; };
+		F33BC6C82254D5AE00C48E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33BC6C72254D5AE00C48E57 /* ViewController.swift */; };
+		F33BC6CB2254D5AE00C48E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33BC6C92254D5AE00C48E57 /* Main.storyboard */; };
+		F33BC6CD2254D5AF00C48E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33BC6CC2254D5AF00C48E57 /* Assets.xcassets */; };
+		F33BC6D02254D5AF00C48E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33BC6CE2254D5AF00C48E57 /* LaunchScreen.storyboard */; };
+		F33BC6DB2254D5AF00C48E57 /* DudeWhereIsMyCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33BC6DA2254D5AF00C48E57 /* DudeWhereIsMyCarTests.swift */; };
+		F33BC6E62254D5AF00C48E57 /* DudeWhereIsMyCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33BC6E52254D5AF00C48E57 /* DudeWhereIsMyCarUITests.swift */; };
+		F33BC6F42254D74700C48E57 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33BC6F32254D74700C48E57 /* PlacesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F33BC6D72254D5AF00C48E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F33BC6BA2254D5AE00C48E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33BC6C12254D5AE00C48E57;
+			remoteInfo = DudeWhereIsMyCar;
+		};
+		F33BC6E22254D5AF00C48E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F33BC6BA2254D5AE00C48E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F33BC6C12254D5AE00C48E57;
+			remoteInfo = DudeWhereIsMyCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3294E07225776ED000131D8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F33BC6C22254D5AE00C48E57 /* DudeWhereIsMyCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DudeWhereIsMyCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33BC6C52254D5AE00C48E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F33BC6C72254D5AE00C48E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F33BC6CA2254D5AE00C48E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F33BC6CC2254D5AF00C48E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F33BC6CF2254D5AF00C48E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F33BC6D12254D5AF00C48E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33BC6D62254D5AF00C48E57 /* DudeWhereIsMyCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DudeWhereIsMyCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33BC6DA2254D5AF00C48E57 /* DudeWhereIsMyCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DudeWhereIsMyCarTests.swift; sourceTree = "<group>"; };
+		F33BC6DC2254D5AF00C48E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33BC6E12254D5AF00C48E57 /* DudeWhereIsMyCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DudeWhereIsMyCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33BC6E52254D5AF00C48E57 /* DudeWhereIsMyCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DudeWhereIsMyCarUITests.swift; sourceTree = "<group>"; };
+		F33BC6E72254D5AF00C48E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33BC6F32254D74700C48E57 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F33BC6BF2254D5AE00C48E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3294E08225776ED000131D8 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33BC6D32254D5AF00C48E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33BC6DE2254D5AF00C48E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3294E06225776ED000131D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3294E07225776ED000131D8 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F33BC6B92254D5AE00C48E57 = {
+			isa = PBXGroup;
+			children = (
+				F33BC6C42254D5AE00C48E57 /* DudeWhereIsMyCar */,
+				F33BC6D92254D5AF00C48E57 /* DudeWhereIsMyCarTests */,
+				F33BC6E42254D5AF00C48E57 /* DudeWhereIsMyCarUITests */,
+				F33BC6C32254D5AE00C48E57 /* Products */,
+				F3294E06225776ED000131D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F33BC6C32254D5AE00C48E57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F33BC6C22254D5AE00C48E57 /* DudeWhereIsMyCar.app */,
+				F33BC6D62254D5AF00C48E57 /* DudeWhereIsMyCarTests.xctest */,
+				F33BC6E12254D5AF00C48E57 /* DudeWhereIsMyCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F33BC6C42254D5AE00C48E57 /* DudeWhereIsMyCar */ = {
+			isa = PBXGroup;
+			children = (
+				F33BC6C52254D5AE00C48E57 /* AppDelegate.swift */,
+				F33BC6C72254D5AE00C48E57 /* ViewController.swift */,
+				F33BC6C92254D5AE00C48E57 /* Main.storyboard */,
+				F33BC6F32254D74700C48E57 /* PlacesViewController.swift */,
+				F33BC6CC2254D5AF00C48E57 /* Assets.xcassets */,
+				F33BC6CE2254D5AF00C48E57 /* LaunchScreen.storyboard */,
+				F33BC6D12254D5AF00C48E57 /* Info.plist */,
+			);
+			path = DudeWhereIsMyCar;
+			sourceTree = "<group>";
+		};
+		F33BC6D92254D5AF00C48E57 /* DudeWhereIsMyCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F33BC6DA2254D5AF00C48E57 /* DudeWhereIsMyCarTests.swift */,
+				F33BC6DC2254D5AF00C48E57 /* Info.plist */,
+			);
+			path = DudeWhereIsMyCarTests;
+			sourceTree = "<group>";
+		};
+		F33BC6E42254D5AF00C48E57 /* DudeWhereIsMyCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F33BC6E52254D5AF00C48E57 /* DudeWhereIsMyCarUITests.swift */,
+				F33BC6E72254D5AF00C48E57 /* Info.plist */,
+			);
+			path = DudeWhereIsMyCarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F33BC6C12254D5AE00C48E57 /* DudeWhereIsMyCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33BC6EA2254D5AF00C48E57 /* Build configuration list for PBXNativeTarget "DudeWhereIsMyCar" */;
+			buildPhases = (
+				F33BC6BE2254D5AE00C48E57 /* Sources */,
+				F33BC6BF2254D5AE00C48E57 /* Frameworks */,
+				F33BC6C02254D5AE00C48E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DudeWhereIsMyCar;
+			productName = DudeWhereIsMyCar;
+			productReference = F33BC6C22254D5AE00C48E57 /* DudeWhereIsMyCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F33BC6D52254D5AF00C48E57 /* DudeWhereIsMyCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33BC6ED2254D5AF00C48E57 /* Build configuration list for PBXNativeTarget "DudeWhereIsMyCarTests" */;
+			buildPhases = (
+				F33BC6D22254D5AF00C48E57 /* Sources */,
+				F33BC6D32254D5AF00C48E57 /* Frameworks */,
+				F33BC6D42254D5AF00C48E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F33BC6D82254D5AF00C48E57 /* PBXTargetDependency */,
+			);
+			name = DudeWhereIsMyCarTests;
+			productName = DudeWhereIsMyCarTests;
+			productReference = F33BC6D62254D5AF00C48E57 /* DudeWhereIsMyCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F33BC6E02254D5AF00C48E57 /* DudeWhereIsMyCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33BC6F02254D5AF00C48E57 /* Build configuration list for PBXNativeTarget "DudeWhereIsMyCarUITests" */;
+			buildPhases = (
+				F33BC6DD2254D5AF00C48E57 /* Sources */,
+				F33BC6DE2254D5AF00C48E57 /* Frameworks */,
+				F33BC6DF2254D5AF00C48E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F33BC6E32254D5AF00C48E57 /* PBXTargetDependency */,
+			);
+			name = DudeWhereIsMyCarUITests;
+			productName = DudeWhereIsMyCarUITests;
+			productReference = F33BC6E12254D5AF00C48E57 /* DudeWhereIsMyCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F33BC6BA2254D5AE00C48E57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = sneakysneak;
+				TargetAttributes = {
+					F33BC6C12254D5AE00C48E57 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					F33BC6D52254D5AF00C48E57 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = F33BC6C12254D5AE00C48E57;
+					};
+					F33BC6E02254D5AF00C48E57 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = F33BC6C12254D5AE00C48E57;
+					};
+				};
+			};
+			buildConfigurationList = F33BC6BD2254D5AE00C48E57 /* Build configuration list for PBXProject "DudeWhereIsMyCar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F33BC6B92254D5AE00C48E57;
+			productRefGroup = F33BC6C32254D5AE00C48E57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F33BC6C12254D5AE00C48E57 /* DudeWhereIsMyCar */,
+				F33BC6D52254D5AF00C48E57 /* DudeWhereIsMyCarTests */,
+				F33BC6E02254D5AF00C48E57 /* DudeWhereIsMyCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F33BC6C02254D5AE00C48E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33BC6D02254D5AF00C48E57 /* LaunchScreen.storyboard in Resources */,
+				F33BC6CD2254D5AF00C48E57 /* Assets.xcassets in Resources */,
+				F33BC6CB2254D5AE00C48E57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33BC6D42254D5AF00C48E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33BC6DF2254D5AF00C48E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F33BC6BE2254D5AE00C48E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33BC6F42254D74700C48E57 /* PlacesViewController.swift in Sources */,
+				F33BC6C82254D5AE00C48E57 /* ViewController.swift in Sources */,
+				F33BC6C62254D5AE00C48E57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33BC6D22254D5AF00C48E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33BC6DB2254D5AF00C48E57 /* DudeWhereIsMyCarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33BC6DD2254D5AF00C48E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33BC6E62254D5AF00C48E57 /* DudeWhereIsMyCarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F33BC6D82254D5AF00C48E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33BC6C12254D5AE00C48E57 /* DudeWhereIsMyCar */;
+			targetProxy = F33BC6D72254D5AF00C48E57 /* PBXContainerItemProxy */;
+		};
+		F33BC6E32254D5AF00C48E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F33BC6C12254D5AE00C48E57 /* DudeWhereIsMyCar */;
+			targetProxy = F33BC6E22254D5AF00C48E57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F33BC6C92254D5AE00C48E57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F33BC6CA2254D5AE00C48E57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F33BC6CE2254D5AF00C48E57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F33BC6CF2254D5AF00C48E57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F33BC6E82254D5AF00C48E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F33BC6E92254D5AF00C48E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F33BC6EB2254D5AF00C48E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL6G7B44H6;
+				INFOPLIST_FILE = DudeWhereIsMyCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sneakysneak.DudeWhereIsMyCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F33BC6EC2254D5AF00C48E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL6G7B44H6;
+				INFOPLIST_FILE = DudeWhereIsMyCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sneakysneak.DudeWhereIsMyCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F33BC6EE2254D5AF00C48E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL6G7B44H6;
+				INFOPLIST_FILE = DudeWhereIsMyCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sneakysneak.DudeWhereIsMyCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DudeWhereIsMyCar.app/DudeWhereIsMyCar";
+			};
+			name = Debug;
+		};
+		F33BC6EF2254D5AF00C48E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL6G7B44H6;
+				INFOPLIST_FILE = DudeWhereIsMyCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sneakysneak.DudeWhereIsMyCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DudeWhereIsMyCar.app/DudeWhereIsMyCar";
+			};
+			name = Release;
+		};
+		F33BC6F12254D5AF00C48E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL6G7B44H6;
+				INFOPLIST_FILE = DudeWhereIsMyCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sneakysneak.DudeWhereIsMyCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DudeWhereIsMyCar;
+			};
+			name = Debug;
+		};
+		F33BC6F22254D5AF00C48E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RL6G7B44H6;
+				INFOPLIST_FILE = DudeWhereIsMyCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sneakysneak.DudeWhereIsMyCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DudeWhereIsMyCar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F33BC6BD2254D5AE00C48E57 /* Build configuration list for PBXProject "DudeWhereIsMyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33BC6E82254D5AF00C48E57 /* Debug */,
+				F33BC6E92254D5AF00C48E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33BC6EA2254D5AF00C48E57 /* Build configuration list for PBXNativeTarget "DudeWhereIsMyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33BC6EB2254D5AF00C48E57 /* Debug */,
+				F33BC6EC2254D5AF00C48E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33BC6ED2254D5AF00C48E57 /* Build configuration list for PBXNativeTarget "DudeWhereIsMyCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33BC6EE2254D5AF00C48E57 /* Debug */,
+				F33BC6EF2254D5AF00C48E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33BC6F02254D5AF00C48E57 /* Build configuration list for PBXNativeTarget "DudeWhereIsMyCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33BC6F12254D5AF00C48E57 /* Debug */,
+				F33BC6F22254D5AF00C48E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F33BC6BA2254D5AE00C48E57 /* Project object */;
+}
